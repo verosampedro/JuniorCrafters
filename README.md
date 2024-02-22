@@ -1,10 +1,17 @@
-# JuniorCrafters
+# 🚀JuniorCrafters🚀
 
-# Plataforma de Cursos de Codificación
+
 
 Esta es una plataforma web diseñada para ofrecer cursos de codificación a través de una tienda online. Los estudiantes pueden explorar diversos cursos, realizar compras y acceder a material educativo de alta calidad.
 
-## Tecnologías Utilizadas
+Lenguajes utilizados🏗
+HTML5 CSS3 JavaScript
+
+Librería principal: React
+
+Framework: VITE
+
+##💻 Tecnologías Utilizadas💻
 
 - [React](https://reactjs.org/) v18.2.0
 - [React DOM](https://reactjs.org/docs/react-dom.html) v18.2.0
@@ -23,7 +30,7 @@ Esta es una plataforma web diseñada para ofrecer cursos de codificación a trav
 - [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh) v0.4.5
 - [Vite](https://vitejs.dev/) v5.1.0
 
-## Configuración y Uso
+📢¿Cómo usar?📢
 
 ### Instalación
 
@@ -53,11 +60,23 @@ Copy code
 yarn build
 Este comando generará los archivos optimizados en el directorio dist listos para ser desplegados.
 
-Contribución
+🔨¿Cómo contribuir?🔨
 Si deseas contribuir al proyecto, por favor sigue estos pasos:
 
 Haz un fork del repositorio.
 Crea una nueva rama para tu contribución.
 Realiza tus cambios y asegúrate de que las pruebas pasen.
 Haz un pull request a la rama principal del proyecto.
-Licencia
+
+<h4 align="center">
+✒️Autores✒️
+<h4/>
+Este proyecto ha sido creado por:
+   
+ Alba Martín
+ Viviana Sánchez
+ Vero Sampedro
+ Abelardo Acosta
+ Victor M. Menénde
+ Estefania Bartolome
+ Jéssica Solórzano

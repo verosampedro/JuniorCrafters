@@ -11,7 +11,7 @@ const Description = ({ courseId }) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`http://localhost:8080/course/${courseId}`);
+                const response = await fetch(`http://localhost:8080/course`);
                 if (!response.ok) {
                     throw new Error('Failed to fetch data');
                 }
@@ -25,6 +25,8 @@ const Description = ({ courseId }) => {
         };
 
         fetchData();
+        console.log(data)
+
     }, [courseId]);
 
     if (isLoading) {

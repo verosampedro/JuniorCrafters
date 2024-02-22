@@ -4,21 +4,16 @@ import ContactForm from './pages/ContactForm/ContactForm';
 import Description from './components/atoms/Description';
 
 
-
-
 function App() {
-
-
   return (
     <>
       <Router>
         <Routes>
-          <Route path="/contact" element={<ContactForm />}/>
-          <Route path="/description" element={<Description />}/>
+          <Route path="/contact" element={<ContactForm />} />
+          <Route path="/description" element={<Description />} />
         </Routes>
       </Router>
     </>
   )
 }
-
 export default App

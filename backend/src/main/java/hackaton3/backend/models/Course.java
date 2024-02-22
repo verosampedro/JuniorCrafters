@@ -4,29 +4,35 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "courses")
 public class Course {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
+
     private String name;
     private String author;
     private String description;
-    private Integer valoration;
+    private int valoration;
     private String images;
 
-    // Getters and setters
-    public Long getId() {
-        return id;
+    // Constructor por defecto requerido por JPA
+    public Course() {
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public Course(String name, String author, String description, int valoration, String images) {
+        this.name = name;
+        this.author = author;
+        this.description = description;
+        this.valoration = valoration;
+        this.images = images;
+    }
+
+    // Getters y setters
+
+    public Long getId() {
+        return id;
     }
 
     public String getName() {
@@ -53,11 +59,11 @@ public class Course {
         this.description = description;
     }
 
-    public Integer getValoration() {
+    public int getValoration() {
         return valoration;
     }
 
-    public void setValoration(Integer valoration) {
+    public void setValoration(int valoration) {
         this.valoration = valoration;
     }
 

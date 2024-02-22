@@ -1,4 +1,4 @@
-/* INSERT INTO COURSES (name, author, description, valoration, images) 
+INSERT INTO COURSES (name, author, description, valoration, images) 
 VALUES 
 ('Introducción a la Programación con Python', 'John Smith', 'Aprende los fundamentos de la programación utilizando Python, uno de los lenguajes más populares y versátiles del mundo.', 4, 'https://images.unsplash.com/photo-1550399105-1b87f6103df1?q=80&w=1080&fit=max'),
 ('Desarrollo de Aplicaciones Web con React', 'Emily Johnson', 'Domina el desarrollo de aplicaciones web modernas utilizando React, una biblioteca JavaScript de código abierto mantenida por Facebook.', 5, 'https://images.unsplash.com/photo-1527430253228-e93688616381?q=80&w=1080&fit=max'),
@@ -28,4 +28,3 @@ VALUES
 ('Desarrollo de Aplicaciones Móviles con React Native', 'Valentina Martinez', 'Crea aplicaciones móviles nativas para iOS y Android utilizando React Native, un framework de desarrollo de aplicaciones móviles basado en React y JavaScript.', 4, 'https://images.unsplash.com/photo-1556740734-90de374c12ad?q=80&w=1080&fit=max'),
 ('Desarrollo de Aplicaciones Web con Vue.js', 'Daniel López', 'Aprende a construir interfaces de usuario interactivas y dinámicas para aplicaciones web utilizando Vue.js, un framework progresivo de JavaScript.', 5, 'https://images.unsplash.com/photo-1556740734-90de374c12ad?q=80&w=1080&fit=max'),
 ('Desarrollo de Aplicaciones Móviles con Kotlin', 'Sofía Fernández', 'Crea aplicaciones móviles para Android utilizando Kotlin, un lenguaje de programación moderno y conciso respaldado oficialmente por Google para el desarrollo de aplicaciones Android.', 4, 'https://images.unsplash.com/photo-1556740734-90de374c12ad?q=80&w=1080&fit=max');
- */

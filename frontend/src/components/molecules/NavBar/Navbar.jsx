@@ -17,16 +17,17 @@ function Navbar() {
       <NavContainer>
         <nav className={`nav-bar ${clicked ? "active" : ""}`}>
           <ul>
-            {/* <BotonToggle /> */}
-            <li>
-              <Link to="/about">Conócenos!</Link>
+          <li>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/gallery">Cursos</Link>
+              <Link to="/course">Course</Link>
             </li>
             <li>
-              <Link to="/access">Contacto</Link>
+            <Link to="/contact">Contact</Link>
             </li>
+            
+           
           </ul>
         </nav>
         <div className="burguer-nav">

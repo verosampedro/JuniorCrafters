@@ -1,0 +1,13 @@
+/* DarkButton.css */
+
+.dark-theme-toggle {
+  background-color:#fff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 99999999; /* Asegúrate de que el botón tenga un z-index superior a 0 */
+}
+
+

@@ -1,0 +1,26 @@
+.container {
+    width: 100vw;
+    height: 40vw;
+    background-image: url(../../../assets/backgroundHome.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.blur {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    width: 50vw;
+    height: 20vw;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 2.5vw;
+}

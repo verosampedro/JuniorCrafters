@@ -1,0 +1,68 @@
+.containerCategories {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 25px 0;
+}
+
+.category1  {
+    background-image: url(../../../assets/category1.png);
+    width: 20vw;
+    height: 25vw;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: opacity 0.3s ease;
+}
+
+.category1:hover {
+    opacity: 0.5; /* Cambia la opacidad al hacer hover */
+}
+
+.category2  {
+    background-image: url(../../../assets/category2.png);
+    width: 20vw;
+    height: 25vw;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: opacity 0.3s ease;
+}
+
+.category2:hover {
+    opacity: 0.5; /* Cambia la opacidad al hacer hover */
+}
+
+.category3  {
+    background-image: url(../../../assets/category3.png);
+    width: 20vw;
+    height: 25vw;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: opacity 0.3s ease;
+}
+
+.category3:hover {
+    opacity: 0.5; /* Cambia la opacidad al hacer hover */
+}
+
+.category4  {
+    background-image: url(../../../assets/category4.png);
+    width: 20vw;
+    height: 25vw;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: opacity 0.3s ease;
+}
+
+.category4:hover {
+    opacity: 0.5; /* Cambia la opacidad al hacer hover */
+}

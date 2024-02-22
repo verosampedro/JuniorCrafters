@@ -10,9 +10,13 @@ import hackaton3.backend.repository.CourseRepository;
 @Service
 public class CourseService {
 
-    private static CourseRepository courseRepository;
+    private final CourseRepository courseRepository;
 
-    public static List<Course> findAll() {
+    public CourseService(CourseRepository courseRepository) {
+        this.courseRepository = courseRepository;
+    }
+
+    public List<Course> findAll() {
         return courseRepository.findAll();
     }
 }

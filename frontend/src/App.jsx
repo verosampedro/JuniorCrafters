@@ -1,9 +1,7 @@
-import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import ContactForm from './pages/ContactForm/ContactForm';
-
-import Description from './components/atoms/Description.jsx';
+import Description from './components/atoms/Description';
 
 
 
@@ -16,14 +14,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/contact" element={<ContactForm />}/>
+          <Route path="/description" element={<Description />}/>
         </Routes>
       </Router>
-      <>
-        <h1></h1>
-        <Description />
-        
-      </>
-
     </>
   )
 }

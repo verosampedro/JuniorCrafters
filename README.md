@@ -56,10 +56,10 @@ Submit a pull request to the main branch.
 ✒️ Authors ✒️
 <h4/>
 This project has been created by:
-Alba Martín
-Viviana Sánchez.
-Vero Sampedro.
-Abelardo Acosta.
-Victor M. Menénde.
-Estefania Bartolome.
+Alba Martín,
+Viviana Sánchez,
+Vero Sampedro,
+Abelardo Acosta,
+Victor M. Menénde,
+Estefania Bartolome,
 Jéssica Solórzano.

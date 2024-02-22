@@ -56,7 +56,7 @@ const ContactForm = () => {
                         <div>
                         <label>Message</label>
                             <input className="message-input" type="text" {...register('message', { required: true })} />
-                            {errors.message?.type === 'required' && <p className="error-message">Messge field is required.</p>}
+                            {errors.message?.type === 'required' && <p className="error-message">Message field is required.</p>}
                         </div>
                         <input className="contact-button" type="submit" value="SEND" />
                     </form>

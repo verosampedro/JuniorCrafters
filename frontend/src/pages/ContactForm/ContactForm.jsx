@@ -7,6 +7,13 @@ import contact from  "../../assets/images/contact_bg.png";
 const ContactForm = () => {
     const { register, handleSubmit } = useForm();
 
+    // const contactData = async (newData) => {
+    //     const result = await fetch(`http://localhost:3000/posters`, {
+    //         method: "POST",
+    //         headers: {'Content-Type': 'application/json'},
+    //         body: JSON.stringify(newData),
+    //     });
+
     const onSubmit = async (data) => {
         console.log(data);
         // await contactData(data);

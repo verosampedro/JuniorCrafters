@@ -1,15 +1,28 @@
+body {
+    margin: 0;
+}
+
+.box-contact {
+    display:flex;
+}
+
+.contact-image {
+    width: auto;
+    height: 100vh;
+}
+
 .form-container {
     background-color:black;
+    display: grid;
+    place-items: center;
+    width: 100vw;
 }
 
 .contact-form {
     background-color: #D2DE32;
-    border-radius: 50px;
+    border-radius: 20px;
     border: 3px solid #DDDDDD;
-    padding: 5%;
-    /* margin: 5rem; */
-    margin-right: 45vh;
-    margin-left: 45vh;
+    padding: 0% 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,11 +40,15 @@ input {
     flex-direction: column;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-radius: 50px;
-    height: 4vh;
+    border-radius: 20px;
+    height: 40px;
     color: black;
     background-color: #DDDDDD;
     border-color:#A2C579;
+}
+
+.message-input {
+    height: 80px;
 }
 
 .contact-button {
@@ -39,12 +56,11 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     background-color: black;
     padding: 7%;
     color: #ffffff;
-    border-radius: 50px;
+    border-radius: 20px;
     border-color: #f8f7f6;
     border-width: 3px;
     font-weight: bold;

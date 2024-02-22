@@ -25,4 +25,6 @@ public class CourseController {
     public List<Course> findAll() {
         return courseService.findAll();
     }
+
+    
 }

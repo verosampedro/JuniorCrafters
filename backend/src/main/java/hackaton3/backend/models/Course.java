@@ -19,8 +19,15 @@ import jakarta.persistence.Table;
     String author;
     String description;
     Integer valoration;
+    String images;
 
     
+    public String getImages() {
+        return images;
+    }
+    public void setImages(String images) {
+        this.images = images;
+    }
     public Long getId() {
         return id;
     }

@@ -10,11 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import hackaton3.backend.models.Course;
 import hackaton3.backend.services.CourseService;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 
 @RequestMapping ("/course")
 
@@ -24,6 +19,7 @@ public class CourseController {
 
     @GetMapping
     public List<Course> findAll() {
+        
         return CourseService.findAll();
     }
 

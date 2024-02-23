@@ -6,7 +6,6 @@ This web platform is designed to offer coding courses through an online store. S
 - React v18.2.0
 - React DOM v18.2.0
 - React Hook Form v7.50.1
-- React Router DOM v6.22.1
 - Yarn v1.22.21
 
 ## Development Dependencies

@@ -1,68 +1,110 @@
-.containerCategories {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    padding: 25px 0;
-}
+/* -_- ----------------- ESTILOS FLIPCARD SECTION ----------------- -_- */
 
-.category1  {
-    background-image: url(../../../assets/category1.png);
-    width: 20vw;
-    height: 25vw;
-    margin: 5px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    transition: opacity 0.3s ease;
-}
-
-.category1:hover {
-    opacity: 0.5; /* Cambia la opacidad al hacer hover */
-}
-
-.category2  {
-    background-image: url(../../../assets/category2.png);
-    width: 20vw;
-    height: 25vw;
-    margin: 5px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    transition: opacity 0.3s ease;
-}
-
-.category2:hover {
-    opacity: 0.5; /* Cambia la opacidad al hacer hover */
-}
-
-.category3  {
-    background-image: url(../../../assets/category3.png);
-    width: 20vw;
-    height: 25vw;
-    margin: 5px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    transition: opacity 0.3s ease;
-}
-
-.category3:hover {
-    opacity: 0.5; /* Cambia la opacidad al hacer hover */
-}
-
-.category4  {
-    background-image: url(../../../assets/category4.png);
-    width: 20vw;
-    height: 25vw;
-    margin: 5px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    transition: opacity 0.3s ease;
-}
-
-.category4:hover {
-    opacity: 0.5; /* Cambia la opacidad al hacer hover */
-}
+.flipcard-section {
+      background-color: black;
+      padding: 40px;
+    }
+    
+    .flipcard-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1vh;
+      justify-content: space-around; /* Cambiado de space-around a space-between */
+     
+      margin: auto;
+      margin-bottom: 50px;
+    }
+    
+    .flipcard {
+      perspective: 1000px;
+      width: 300px;
+      height: 400px;
+      position: relative;
+      border-radius: 15px; /* Agregado borde redondeado */
+      overflow: hidden; /* Para asegurar que los bordes redondeados se apliquen correctamente */
+    }
+    
+    .flipcard-inner {
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: transform 1.5s;
+      background-color:black;
+    }
+    
+    .flipcard:hover .flipcard-inner {
+      transform: rotateX(180deg);
+    }
+    
+    .flipcard-front,
+    .flipcard-back {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      backface-visibility: hidden;
+     
+      border-radius: 15px; /* Agregado borde redondeado */
+      
+    }
+    
+    .flipcard-front {
+      transform: rotateX(0deg);
+      display: flex;
+      flex-direction: column;
+      background-size: cover;
+    }
+    .flipcard-front.first {
+    background-image: url('../../../../public/flip/first-flip-img.png'); 
+  }
+  .flipcard-front.second {
+    background-image: url('../../../../public/flip/second-flip-img.png');
+    
+  }
+  .flipcard-front.third {
+    background-image: url('../../../../public/flip/third-flip-img.png');
+    
+  }
+  .flipcard-front.fourth {
+    background-image: url('../../../../public/flip/fourth-flip-img.png');
+    
+  }
+    
+    .flipcard-back {
+      transform: rotateX(180deg);
+      background-color:#D2DE32;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .flipcard-back p {
+      color: black;
+      font-size: large;
+    }
+    
+    .flipcard-image{
+      width: 150px;
+      height:100%;
+    
+    }
+    .flipcard-title{
+      height: 15%;
+      background-color:#D2DE32;
+      color: black;
+      width: 100%;
+      text-align: center;
+    }
+    
+    
+    .flipcard h3 {
+      margin-top: 10px;
+    }
+    
+    .flipcard p {
+      text-align: center;
+    }   
+    
+    .image-flipcard{
+      height: 300px;
+    }
+    

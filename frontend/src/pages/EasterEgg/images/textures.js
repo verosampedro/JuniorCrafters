@@ -1,14 +1,14 @@
-import { lava, skull, seeking, rockConcert, rockWoman, redStairs } from './images.js'
+import { moon, first, second, third, fourth, fifth } from './images.js'
 
 import { NearestFilter, RepeatWrapping, TextureLoader } from 'three'
 
-const groundTexture = new TextureLoader().load(lava)
+const groundTexture = new TextureLoader().load(moon)
 
-const skullTexture = new TextureLoader().load(skull)
-const seekingTexture = new TextureLoader().load(seeking)
-const redStairsTexture = new TextureLoader().load(redStairs)
-const rockConertTexture = new TextureLoader().load(rockConcert)
-const rockWomanTexture = new TextureLoader().load(rockWoman)
+const firstTexture = new TextureLoader().load(first)
+const secondTexture = new TextureLoader().load(second)
+const thirdTexture = new TextureLoader().load(third)
+const fourthTexture = new TextureLoader().load(fourth)
+const fifthTexture = new TextureLoader().load(fifth)
 
 
 
@@ -17,13 +17,13 @@ groundTexture.wrapT = RepeatWrapping // eje vertical
 groundTexture.magFilter = NearestFilter
 
 
-skullTexture.magFilter = NearestFilter
-seekingTexture.magFilter = NearestFilter
-redStairsTexture.magFilter = NearestFilter
-rockConertTexture.magFilter = NearestFilter
-rockWomanTexture.magFilter = NearestFilter
+firstTexture.magFilter = NearestFilter
+secondTexture.magFilter = NearestFilter
+thirdTexture.magFilter = NearestFilter
+fourthTexture.magFilter = NearestFilter
+fifthTexture.magFilter = NearestFilter
 
 
 
 
-export { groundTexture, skullTexture, seekingTexture, redStairsTexture, rockConertTexture, rockWomanTexture }
+export { groundTexture, firstTexture, secondTexture, thirdTexture, fourthTexture, fifthTexture }

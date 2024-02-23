@@ -1,0 +1,79 @@
+/* Estilos base */
+.gallery-filter {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+    margin:  auto;
+    margin-top: 170px;
+    z-index: 9;
+    background-color: gray;
+  }
+  
+  .filter-title {
+    text-align: center;
+    margin-bottom: 10px;
+    z-index: 99999999999999;
+  }
+  
+  .filter-title span {
+    font-size: 1.5rem; /* Ajusta el tamaño de la fuente según sea necesario */
+    font-weight: bold;
+    z-index: 99999999999999;
+  }
+  
+  .filter-btn-container {
+    color: white;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999999999999;
+  }
+  
+  .gallery-button {
+    width: 11rem;
+    height: 4rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color: #D2DE32;
+    border-radius: 2.5rem;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    z-index: 9;
+  }
+  
+  .gallery-button:hover,
+  .gallery-button.active {
+    color: #D2DE32;
+    background-color: black;
+    border: 4px solid #D2DE32; /* Añadir 'solid' u otro tipo de borde según sea necesario */
+    z-index: 99999999999999;
+  }
+  
+  .gallery-link {
+    font-weight: bolder;
+    color: white;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999999999999;
+  }
+  
+  .gallery-link:hover,
+  .gallery-link.active {
+    color: red;
+    z-index: 99999999999999;
+  }

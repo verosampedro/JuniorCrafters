@@ -1,44 +1,57 @@
 // useStore.js
-import create from 'zustand';
+import create from "zustand";
 
-import { nanoid } from 'nanoid';
+import { nanoid } from "nanoid";
 
 export const useStore = create((set) => ({
-  texture: 'skull',
+  texture: "category1",
   cubes: [
     {
       id: nanoid(),
-      pos: [1, 1, 1],
-      texture: 'skull',
+      pos: [8, 0, 2],  // Cambiado a [2, 0, 2]
+      texture: "first",
     },
     {
       id: nanoid(),
-      pos: [3, 1, 1],
-      texture: 'seeking',
+      pos: [8, 0, 6],  // Cambiado a [6, 0, 4]
+      texture: "second",
     },
     {
       id: nanoid(),
-      pos: [2, 1, 1],
-      texture: 'redStairs',
+      pos: [8, 0, 10],  // Cambiado a [8, 0, 6]
+      texture: "third",
+    },
+    {
+      id: nanoid(),
+      pos: [8, 0, 14], // Cambiado a [10, 0, 8]
+      texture: "fourth",
+    },
+    {
+      id: nanoid(),
+      pos: [8, 0, 18],// Cambiado a [12, 0, 10]
+      texture: "fifth",
     },
   ],
 
   addCube: (x, y, z) => {
     set((state) => ({
-      cubes: [...state.cubes, {
-        id: nanoid(),
-        texture: state.texture,
-        pos: [x, y, z],
-      }],
+      cubes: [
+        ...state.cubes,
+        {
+          id: nanoid(),
+          texture: state.texture,
+          pos: [x, y, z],
+        },
+      ],
     }));
   },
 
   removeCube: (id) => {
-    set(state => ({
-      cubes: state.cubes.filter(cube => cube.id !== id)
-    }))
+    set((state) => ({
+      cubes: state.cubes.filter((cube) => cube.id !== id),
+    }));
   },
-  
+
   setTexture: (newTexture) => {
     set({ texture: newTexture });
   },

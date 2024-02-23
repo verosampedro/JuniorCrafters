@@ -2,6 +2,13 @@
 
 This web platform is designed to offer coding courses through an online store. Students can explore various courses, make purchases, and access high-quality educational materials.
 
+##Lenguajes utilizados🏗️
+HTML5 CSS3 JavaScript
+
+Librería principal: React
+
+Framework: VITE
+
 ## 💻 Technologies Used 💻
 - React v18.2.0
 - React DOM v18.2.0

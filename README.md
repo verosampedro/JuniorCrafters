@@ -1,4 +1,3 @@
-
 🚀 JuniorCrafters 🚀
 Welcome to JuniorCrafters, your go-to web platform for high-quality coding courses. Whether you're a beginner or looking to enhance your skills, we offer a range of courses to cater to your needs. Explore our online store, make purchases, and access educational materials to embark on your coding journey.
 
@@ -75,3 +74,8 @@ Jéssica Solórzano
 
 
 Happy coding with JuniorCrafters! 🚀👩‍💻👨‍💻
+
+
+
+
+

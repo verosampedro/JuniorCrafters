@@ -17,7 +17,7 @@ public class Course {
     private int valoration;
     private String images;
 
-    // Constructor por defecto requerido por JPA
+    
     public Course() {
     }
 
@@ -29,7 +29,7 @@ public class Course {
         this.images = images;
     }
 
-    // Getters y setters
+   
 
     public Long getId() {
         return id;
